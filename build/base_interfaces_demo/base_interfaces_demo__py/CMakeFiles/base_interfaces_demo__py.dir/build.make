@@ -71,10 +71,13 @@ include /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_de
 /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
 /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/_student.py
 /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py
+/home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/_progress.py
 /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/__init__.py
 /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/__init__.py
+/home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/__init__.py
 /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/_student_s.c
 /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c
+/home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/_progress_s.c
 
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -91,9 +94,15 @@ rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_types
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces_demo/msg/Student.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces_demo/srv/AddInts.idl
+rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interfaces_demo/action/Progress.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/haixin/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -109,11 +118,17 @@ rosidl_generator_py/base_interfaces_demo/msg/_student.py: rosidl_generator_py/ba
 rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/srv/_add_ints.py
 
+rosidl_generator_py/base_interfaces_demo/action/_progress.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/action/_progress.py
+
 rosidl_generator_py/base_interfaces_demo/msg/__init__.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/msg/__init__.py
 
 rosidl_generator_py/base_interfaces_demo/srv/__init__.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/srv/__init__.py
+
+rosidl_generator_py/base_interfaces_demo/action/__init__.py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/action/__init__.py
 
 rosidl_generator_py/base_interfaces_demo/msg/_student_s.c: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/msg/_student_s.c
@@ -121,10 +136,16 @@ rosidl_generator_py/base_interfaces_demo/msg/_student_s.c: rosidl_generator_py/b
 rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c
 
+rosidl_generator_py/base_interfaces_demo/action/_progress_s.c: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interfaces_demo/action/_progress_s.c
+
 base_interfaces_demo__py: /home/haixin/ws01_plumbing/build/base_interfaces_demo/base_interfaces_demo__py/CMakeFiles/base_interfaces_demo__py
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/__init__.py
+base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/_progress.py
+base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/action/_progress_s.c
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/__init__.py
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/_student.py
 base_interfaces_demo__py: rosidl_generator_py/base_interfaces_demo/msg/_student_s.c

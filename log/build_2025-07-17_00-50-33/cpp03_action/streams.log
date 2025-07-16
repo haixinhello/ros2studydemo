@@ -1,0 +1,38 @@
+[0.020s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[0.064s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.399s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.430s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.562s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.564s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.734s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.784s] -- Found base_interfaces_demo: 0.0.0 (/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.812s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.969s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.969s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws01_plumbing/src/cpp03_action/include>
+[0.969s] -- Configured cppcheck exclude dirs and/or files: 
+[0.970s] -- Added test 'lint_cmake' to check CMake code style
+[0.971s] -- Added test 'uncrustify' to check C / C++ code style
+[0.972s] -- Configured uncrustify additional arguments: 
+[0.972s] -- Added test 'xmllint' to check XML markup files
+[0.973s] -- Configuring done (0.9s)
+[0.980s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.980s]   Cannot find source file:
+[0.980s] 
+[0.980s]     src/demo02_action_client.cpp
+[0.981s] 
+[0.981s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.981s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.981s]   .f95 .f03 .hip .ispc
+[0.981s] 
+[0.981s] [0m
+[0.982s] [31mCMake Error at CMakeLists.txt:15 (add_executable):
+[0.982s]   No SOURCES given to target: demo02_action_client
+[0.982s] 
+[0.982s] [0m
+[0.983s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.994s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.998s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp03_action' returned '2': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp03_action -- -j4 -l4

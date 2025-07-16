@@ -1,0 +1,64 @@
+[0.019s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp03_action -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp03_action
+[0.123s] -- The C compiler identification is GNU 13.3.0
+[0.224s] -- The CXX compiler identification is GNU 13.3.0
+[0.251s] -- Detecting C compiler ABI info
+[0.411s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.442s] -- Detecting CXX compiler ABI info
+[0.630s] -- Detecting CXX compiler ABI info - done
+[0.643s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.643s] -- Detecting CXX compile features
+[0.644s] -- Detecting CXX compile features - done
+[0.647s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.864s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.021s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.072s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.089s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.265s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.272s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.434s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.461s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.634s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.701s] -- Found base_interfaces_demo: 0.0.0 (/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.731s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.911s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.911s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws01_plumbing/src/cpp03_action/include>
+[1.911s] -- Configured cppcheck exclude dirs and/or files: 
+[1.912s] -- Added test 'lint_cmake' to check CMake code style
+[1.913s] -- Added test 'uncrustify' to check C / C++ code style
+[1.913s] -- Configured uncrustify additional arguments: 
+[1.914s] -- Added test 'xmllint' to check XML markup files
+[1.916s] -- Configuring done (1.9s)
+[1.933s] -- Generating done (0.0s)
+[1.939s] -- Build files have been written to: /home/haixin/ws01_plumbing/build/cpp03_action
+[1.957s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp03_action -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp03_action
+[1.960s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[2.047s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[6.681s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[7.091s] [100%] Built target demo01_action_server
+[7.112s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp03_action -- -j4 -l4
+[7.129s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp03_action
+[7.142s] -- Install configuration: ""
+[7.143s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[7.143s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[7.144s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[7.144s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[7.144s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[7.145s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[7.145s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[7.145s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[7.145s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[7.145s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[7.145s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[7.145s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[7.146s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[7.146s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[7.146s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[7.146s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[7.146s] -- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[7.150s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp03_action

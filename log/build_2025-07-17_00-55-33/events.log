@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000399] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000716] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000743] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000906] (cpp03_action) JobQueued: {'identifier': 'cpp03_action', 'dependencies': OrderedDict({'base_interfaces_demo': '/home/haixin/ws01_plumbing/install/base_interfaces_demo'})}
+[0.001107] (cpp03_action) JobStarted: {'identifier': 'cpp03_action'}
+[0.014180] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'cmake'}
+[0.015118] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'build'}
+[0.015986] (cpp03_action) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/haixin/ws01_plumbing/build/cpp03_action', '--', '-j4', '-l4'], 'cwd': '/home/haixin/ws01_plumbing/build/cpp03_action', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.101 60303 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-af106389-4dc9-4e82-b18c-1fabea13565e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/haixin/.local/bin:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f812374e18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws01_plumbing/build/cpp03_action', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.101 60303 192.168.100.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy'}), 'shell': False}
+[0.099771] (-) TimerEvent: {}
+[0.129024] (cpp03_action) StdoutLine: {'line': b'[ 50%] Built target demo01_action_server\n'}
+[0.142211] (cpp03_action) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o\x1b[0m\n'}
+[0.199897] (-) TimerEvent: {}
+[0.300280] (-) TimerEvent: {}
+[0.400650] (-) TimerEvent: {}
+[0.501055] (-) TimerEvent: {}
+[0.601464] (-) TimerEvent: {}
+[0.701908] (-) TimerEvent: {}
+[0.802304] (-) TimerEvent: {}
+[0.902700] (-) TimerEvent: {}
+[1.003140] (-) TimerEvent: {}
+[1.103531] (-) TimerEvent: {}
+[1.203948] (-) TimerEvent: {}
+[1.304332] (-) TimerEvent: {}
+[1.404702] (-) TimerEvent: {}
+[1.505103] (-) TimerEvent: {}
+[1.605476] (-) TimerEvent: {}
+[1.705868] (-) TimerEvent: {}
+[1.806282] (-) TimerEvent: {}
+[1.906689] (-) TimerEvent: {}
+[2.007088] (-) TimerEvent: {}
+[2.107471] (-) TimerEvent: {}
+[2.207839] (-) TimerEvent: {}
+[2.308240] (-) TimerEvent: {}
+[2.408669] (-) TimerEvent: {}
+[2.509046] (-) TimerEvent: {}
+[2.609438] (-) TimerEvent: {}
+[2.709806] (-) TimerEvent: {}
+[2.810169] (-) TimerEvent: {}
+[2.910540] (-) TimerEvent: {}
+[3.010955] (-) TimerEvent: {}
+[3.111352] (-) TimerEvent: {}
+[3.211742] (-) TimerEvent: {}
+[3.312167] (-) TimerEvent: {}
+[3.412566] (-) TimerEvent: {}
+[3.513121] (-) TimerEvent: {}
+[3.613520] (-) TimerEvent: {}
+[3.713930] (-) TimerEvent: {}
+[3.814330] (-) TimerEvent: {}
+[3.914706] (-) TimerEvent: {}
+[4.015129] (-) TimerEvent: {}
+[4.115519] (-) TimerEvent: {}
+[4.215919] (-) TimerEvent: {}
+[4.316316] (-) TimerEvent: {}
+[4.416741] (-) TimerEvent: {}
+[4.515358] (cpp03_action) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_action_client\x1b[0m\n'}
+[4.516811] (-) TimerEvent: {}
+[4.617274] (-) TimerEvent: {}
+[4.718199] (-) TimerEvent: {}
+[4.752367] (cpp03_action) StdoutLine: {'line': b'[100%] Built target demo02_action_client\n'}
+[4.772339] (cpp03_action) CommandEnded: {'returncode': 0}
+[4.773120] (cpp03_action) JobProgress: {'identifier': 'cpp03_action', 'progress': 'install'}
+[4.789918] (cpp03_action) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/haixin/ws01_plumbing/build/cpp03_action'], 'cwd': '/home/haixin/ws01_plumbing/build/cpp03_action', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.101 60303 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-af106389-4dc9-4e82-b18c-1fabea13565e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/haixin/.local/bin:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f812374e18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws01_plumbing/build/cpp03_action', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.101 60303 192.168.100.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp03_action:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy'}), 'shell': False}
+[4.803522] (cpp03_action) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.803867] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server\n'}
+[4.804478] (cpp03_action) StdoutLine: {'line': b'-- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client\n'}
+[4.805348] (cpp03_action) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client" to ""\n'}
+[4.805795] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action\n'}
+[4.806028] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action\n'}
+[4.806140] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh\n'}
+[4.806233] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv\n'}
+[4.806360] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh\n'}
+[4.806459] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv\n'}
+[4.806554] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash\n'}
+[4.806672] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh\n'}
+[4.806760] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh\n'}
+[4.806844] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv\n'}
+[4.806948] (cpp03_action) StdoutLine: {'line': b'-- Installing: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv\n'}
+[4.807038] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action\n'}
+[4.807122] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake\n'}
+[4.807203] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake\n'}
+[4.807286] (cpp03_action) StdoutLine: {'line': b'-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml\n'}
+[4.809197] (cpp03_action) CommandEnded: {'returncode': 0}
+[4.818367] (-) TimerEvent: {}
+[4.836290] (cpp03_action) JobEnded: {'identifier': 'cpp03_action', 'rc': 0}
+[4.837818] (-) EventReactorShutdown: {}

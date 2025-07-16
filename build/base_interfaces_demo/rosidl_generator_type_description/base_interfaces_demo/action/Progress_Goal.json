@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfaces_demo/action/Progress_Goal",
+      "fields": [
+        {
+          "name": "num",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfaces_demo/action/Progress_Goal",
+      "hash_string": "RIHS01_ed2c8a7437601877bbb8f62794045ade6a89911f2a8c902a748cd3555da425a0"
+    }
+  ]
+}

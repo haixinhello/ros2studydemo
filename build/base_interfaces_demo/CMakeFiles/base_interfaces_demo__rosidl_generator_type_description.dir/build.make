@@ -68,18 +68,24 @@ include CMakeFiles/base_interfaces_demo__rosidl_generator_type_description.dir/p
 
 CMakeFiles/base_interfaces_demo__rosidl_generator_type_description: rosidl_generator_type_description/base_interfaces_demo/msg/Student.json
 CMakeFiles/base_interfaces_demo__rosidl_generator_type_description: rosidl_generator_type_description/base_interfaces_demo/srv/AddInts.json
+CMakeFiles/base_interfaces_demo__rosidl_generator_type_description: rosidl_generator_type_description/base_interfaces_demo/action/Progress.json
 
 rosidl_generator_type_description/base_interfaces_demo/msg/Student.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/base_interfaces_demo/msg/Student.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/base_interfaces_demo/msg/Student.json: rosidl_adapter/base_interfaces_demo/msg/Student.idl
 rosidl_generator_type_description/base_interfaces_demo/msg/Student.json: rosidl_adapter/base_interfaces_demo/srv/AddInts.idl
+rosidl_generator_type_description/base_interfaces_demo/msg/Student.json: rosidl_adapter/base_interfaces_demo/action/Progress.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/haixin/ws01_plumbing/build/base_interfaces_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/base_interfaces_demo/srv/AddInts.json: rosidl_generator_type_description/base_interfaces_demo/msg/Student.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/base_interfaces_demo/srv/AddInts.json
 
+rosidl_generator_type_description/base_interfaces_demo/action/Progress.json: rosidl_generator_type_description/base_interfaces_demo/msg/Student.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/base_interfaces_demo/action/Progress.json
+
 base_interfaces_demo__rosidl_generator_type_description: CMakeFiles/base_interfaces_demo__rosidl_generator_type_description
+base_interfaces_demo__rosidl_generator_type_description: rosidl_generator_type_description/base_interfaces_demo/action/Progress.json
 base_interfaces_demo__rosidl_generator_type_description: rosidl_generator_type_description/base_interfaces_demo/msg/Student.json
 base_interfaces_demo__rosidl_generator_type_description: rosidl_generator_type_description/base_interfaces_demo/srv/AddInts.json
 base_interfaces_demo__rosidl_generator_type_description: CMakeFiles/base_interfaces_demo__rosidl_generator_type_description.dir/build.make

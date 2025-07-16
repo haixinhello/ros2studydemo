@@ -60,7 +60,7 @@ add_library(base_interfaces_demo::base_interfaces_demo__rosidl_generator_c SHARE
 
 set_target_properties(base_interfaces_demo::base_interfaces_demo__rosidl_generator_c PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/base_interfaces_demo"
-  INTERFACE_LINK_LIBRARIES "service_msgs::service_msgs__rosidl_generator_c;builtin_interfaces::builtin_interfaces__rosidl_generator_c;rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
+  INTERFACE_LINK_LIBRARIES "service_msgs::service_msgs__rosidl_generator_c;builtin_interfaces::builtin_interfaces__rosidl_generator_c;action_msgs::action_msgs__rosidl_generator_c;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_c;rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

@@ -4,16 +4,23 @@
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl",
-    "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/AddInts.idl"
+    "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/AddInts.idl",
+    "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:action/Progress.idl"
   ],
   "ros_interface_files": [
     "/home/haixin/ws01_plumbing/src/base_interfaces_demo/msg/Student.msg",
-    "/home/haixin/ws01_plumbing/src/base_interfaces_demo/srv/AddInts.srv"
+    "/home/haixin/ws01_plumbing/src/base_interfaces_demo/srv/AddInts.srv",
+    "/home/haixin/ws01_plumbing/src/base_interfaces_demo/action/Progress.action"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -37,12 +44,19 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/msg/Student.idl",
     "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/srv/AddInts.idl",
+    "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo/action/Progress.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "type_description_tuples": [
     "msg/Student.idl:/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_type_description/base_interfaces_demo/msg/Student.json",
-    "srv/AddInts.idl:/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_type_description/base_interfaces_demo/srv/AddInts.json"
+    "srv/AddInts.idl:/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_type_description/base_interfaces_demo/srv/AddInts.json",
+    "action/Progress.idl:/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_type_description/base_interfaces_demo/action/Progress.json"
   ]
 }

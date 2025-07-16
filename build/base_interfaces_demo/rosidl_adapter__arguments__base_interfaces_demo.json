@@ -2,6 +2,7 @@
   "package_name": "base_interfaces_demo",
   "non_idl_tuples": [
     "/home/haixin/ws01_plumbing/src/base_interfaces_demo:msg/Student.msg",
-    "/home/haixin/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv"
+    "/home/haixin/ws01_plumbing/src/base_interfaces_demo:srv/AddInts.srv",
+    "/home/haixin/ws01_plumbing/src/base_interfaces_demo:action/Progress.action"
   ]
 }

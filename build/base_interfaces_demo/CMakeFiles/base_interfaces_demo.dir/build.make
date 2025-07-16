@@ -68,7 +68,12 @@ include CMakeFiles/base_interfaces_demo.dir/progress.make
 
 CMakeFiles/base_interfaces_demo: /home/haixin/ws01_plumbing/src/base_interfaces_demo/msg/Student.msg
 CMakeFiles/base_interfaces_demo: /home/haixin/ws01_plumbing/src/base_interfaces_demo/srv/AddInts.srv
+CMakeFiles/base_interfaces_demo: /home/haixin/ws01_plumbing/src/base_interfaces_demo/action/Progress.action
 CMakeFiles/base_interfaces_demo: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+CMakeFiles/base_interfaces_demo: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/base_interfaces_demo: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/base_interfaces_demo: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/base_interfaces_demo: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 
 base_interfaces_demo: CMakeFiles/base_interfaces_demo
 base_interfaces_demo: CMakeFiles/base_interfaces_demo.dir/build.make
