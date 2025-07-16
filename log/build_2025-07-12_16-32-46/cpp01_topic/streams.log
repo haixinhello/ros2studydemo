@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.126s] [ 25%] Built target demo01_talker_str
+[0.126s] [ 50%] Built target demo02_listener_str
+[0.127s] [ 62%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.133s] [ 75%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[4.890s] [ 87%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[4.902s] [100%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[5.216s] [100%] Built target demo04_listener_stu
+[5.218s] [100%] Built target demo03_talker_stu
+[5.241s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[5.259s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp01_topic
+[5.272s] -- Install configuration: ""
+[5.273s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[5.273s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[5.274s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[5.275s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[5.276s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[5.276s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""
+[5.276s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[5.277s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[5.278s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[5.278s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[5.278s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[5.278s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[5.278s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[5.278s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[5.281s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp01_topic

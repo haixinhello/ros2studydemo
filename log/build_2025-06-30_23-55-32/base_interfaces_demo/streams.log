@@ -1,0 +1,12 @@
+[0.014s] Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo
+[0.183s] -- The CXX compiler identification is unknown
+[0.189s] [31mCMake Error at CMakeLists.txt:2 (project):
+[0.189s]   No CMAKE_CXX_COMPILER could be found.
+[0.189s] 
+[0.190s]   Tell CMake where to find the compiler by setting either the environment
+[0.190s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[0.190s]   to the compiler, or to the compiler name if it is in the PATH.
+[0.190s] 
+[0.190s] [0m
+[0.191s] -- Configuring incomplete, errors occurred!
+[0.207s] Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo

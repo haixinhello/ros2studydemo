@@ -1,0 +1,13 @@
+[ 50%] Built target demo02_client
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[01m[K/home/haixin/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:23:11:[m[K [01;31m[Kerror: [m[K‘[01m[KSerivice[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KService[m[K’?
+   23 |   rclcpp::[01;31m[KSerivice[m[K<AddInts>::SharedPtr server_;
+      |           [01;31m[K^~~~~~~~[m[K
+      |           [32m[KService[m[K
+[01m[K/home/haixin/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:[m[K In constructor ‘[01m[KAddIntsServer::[01;32m[KAddIntsServer[m[K()[m[K’:
+[01m[K/home/haixin/ws01_plumbing/src/cpp02_service/src/demo01_server.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+   14 |     [01;31m[Kserver_[m[K=this->create_service<AddInts>("add_int",std::bind(&AddIntsServer::add,this,_1,_2));
+      |     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76: CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/demo01_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

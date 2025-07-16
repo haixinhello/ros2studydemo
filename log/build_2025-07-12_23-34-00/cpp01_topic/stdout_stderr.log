@@ -1,0 +1,13 @@
+[ 37%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[ 37%] Built target demo01_talker_str
+[ 62%] Built target demo03_talker_stu
+[ 87%] Built target demo02_listener_str
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:3:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    3 | using base_interfaces_demo::msg::Student
+      |                                         [01;31m[K^[m[K
+      |                                         [32m[K;[m[K
+    4 | [32m[Kclass[m[K ListenerStu: public rclcpp::Node
+      | [32m[K~~~~~[m[K                                    
+gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76: CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/demo04_listener_stu.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '2': /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4

@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.061s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.389s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.421s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.435s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.557s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.732s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.749s] -- Found base_interfaces_demo: 0.0.0 (/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.753s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.933s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.934s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws01_plumbing/src/cpp01_topic/include>
+[0.934s] -- Configured cppcheck exclude dirs and/or files: 
+[0.935s] -- Added test 'lint_cmake' to check CMake code style
+[0.938s] -- Added test 'uncrustify' to check C / C++ code style
+[0.938s] -- Configured uncrustify additional arguments: 
+[0.939s] -- Added test 'xmllint' to check XML markup files
+[0.942s] -- Configuring done (0.9s)
+[0.998s] -- Generating done (0.0s)
+[1.018s] -- Build files have been written to: /home/haixin/ws01_plumbing/build/cpp01_topic
+[1.080s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[1.273s] [ 75%] Built target demo01_talker_str
+[5.017s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:12:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[5.017s]    12 | }
+[5.017s]       |  [01;31m[K^[m[K
+[5.017s]       |  [32m[K;[m[K
+[5.018s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, const char**)[m[K’:
+[5.018s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:18:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[5.018s]    18 |     rclcpp::init(argc,argv)
+[5.018s]       |                            [01;31m[K^[m[K
+[5.018s]       |                            [32m[K;[m[K
+[5.019s]    19 | 
+[5.019s]    20 |     [32m[Krclcpp[m[K::spin(std::make_shared<Listener>());
+[5.019s]       |     [32m[K~~~~~~[m[K                  
+[5.905s] gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76: CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] Error 1
+[5.905s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_listener_str.dir/all] Error 2
+[5.905s] gmake: *** [Makefile:146: all] Error 2
+[5.909s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4

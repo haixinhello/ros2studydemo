@@ -1,0 +1,8 @@
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalker::[01;32m[KTalker[m[K()[m[K’:
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:9:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTalker[m[K’ does not have any field named ‘[01m[Kcount[m[K’
+    9 |   Talker():Node("talker_node_cpp"),[01;31m[Kcount[m[K(0)
+      |                                    [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

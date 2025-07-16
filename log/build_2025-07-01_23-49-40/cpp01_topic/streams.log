@@ -1,0 +1,18 @@
+[0.017s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.111s] [ 50%] Built target demo01_talker_str
+[0.120s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[3.455s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.455s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.455s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.455s]                  from [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:2[m[K:
+[3.455s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In member function ‘[01m[Kvoid Listener::[01;32m[Kdo_cb[m[K(const std_msgs::msg::String&)[m[K’:
+[3.455s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:17:44:[m[K [01;31m[Kerror: [m[Kunable to find string literal operator ‘[01m[Koperator""msg[m[K’ with ‘[01m[Kconst char [24][m[K’, ‘[01m[Klong unsigned int[m[K’ arguments
+[3.456s]    17 |             RCLCPP_INFO(this->get_logger(),[01;31m[K"订阅的消息是：%s"msg[m[K.data.c_str());
+[3.456s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.457s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:15:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.457s]    15 |     void do_cb([01;35m[Kconst std_msgs::msg::String &msg[m[K)
+[3.457s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.508s] gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76: CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] Error 1
+[6.509s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_listener_str.dir/all] Error 2
+[6.509s] gmake: *** [Makefile:146: all] Error 2
+[6.512s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4

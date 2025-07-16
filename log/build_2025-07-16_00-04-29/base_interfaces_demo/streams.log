@@ -1,0 +1,206 @@
+[0.026s] Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo
+[0.263s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.318s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.498s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.665s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.155s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.526s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.199s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.220s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.265s] -- Added test 'lint_cmake' to check CMake code style
+[2.268s] -- Added test 'xmllint' to check XML markup files
+[2.277s] -- Configuring done (2.1s)
+[2.442s] -- Generating done (0.1s)
+[2.493s] -- Build files have been written to: /home/haixin/ws01_plumbing/build/base_interfaces_demo
+[2.517s] Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo
+[2.520s] Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[2.614s] [  2%] Built target base_interfaces_demo__rosidl_generator_type_description
+[2.643s] [  2%] Built target ament_cmake_python_copy_base_interfaces_demo
+[2.661s] [  4%] Built target base_interfaces_demo__cpp
+[2.682s] [ 22%] Built target base_interfaces_demo__rosidl_generator_c
+[2.743s] [ 31%] Built target base_interfaces_demo__rosidl_typesupport_c
+[2.758s] [ 40%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[2.774s] [ 50%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[2.806s] [ 59%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[2.815s] [ 68%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[2.831s] [ 77%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[2.866s] [ 77%] Built target base_interfaces_demo
+[2.902s] [ 79%] Built target base_interfaces_demo__py
+[2.959s] [ 86%] Built target base_interfaces_demo__rosidl_generator_py
+[3.004s] [ 90%] Built target base_interfaces_demo_s__rosidl_typesupport_c
+[3.009s] running egg_info
+[3.017s] [ 95%] Built target base_interfaces_demo_s__rosidl_typesupport_introspection_c
+[3.022s] [100%] Built target base_interfaces_demo_s__rosidl_typesupport_fastrtps_c
+[3.032s] writing base_interfaces_demo.egg-info/PKG-INFO
+[3.032s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[3.033s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[3.090s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[3.092s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[3.160s] [100%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[3.185s] Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[3.204s] Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/base_interfaces_demo
+[3.219s] -- Install configuration: ""
+[3.220s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.json
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.json
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[3.221s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__description.c
+[3.222s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h
+[3.222s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[3.222s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c
+[3.223s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h
+[3.223s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__description.c
+[3.223s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[3.223s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[3.226s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[3.226s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.226s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.227s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.227s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.227s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[3.227s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.227s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.227s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h
+[3.228s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[3.229s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.229s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.229s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.229s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[3.229s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[3.229s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.229s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.229s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.230s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
+[3.230s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[3.231s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[3.232s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[3.233s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.233s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.hpp
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[3.234s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.hpp
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.235s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[3.236s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[3.237s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[3.237s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[3.237s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[3.237s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[3.237s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[3.237s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[3.238s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[3.238s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp
+[3.238s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.239s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[3.240s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[3.241s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[3.241s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[3.241s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info
+[3.241s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.241s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/top_level.txt
+[3.242s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/PKG-INFO
+[3.242s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.242s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo
+[3.242s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.242s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg/_student.py
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg/__init__.py
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg/_student_s.c
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.so
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv/__init__.py
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv/_add_ints_s.c
+[3.243s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv/_add_ints.py
+[3.244s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/__init__.py
+[3.244s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.so
+[3.244s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.so
+[3.308s] Listing '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo'...
+[3.309s] Compiling '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/__init__.py'...
+[3.309s] Listing '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/msg'...
+[3.309s] Listing '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/srv'...
+[3.326s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.so
+[3.328s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.so
+[3.329s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.so
+[3.331s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[3.331s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[3.332s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl
+[3.332s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[3.332s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.srv
+[3.332s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[3.332s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[3.332s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[3.333s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[3.333s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[3.334s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[3.334s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[3.337s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[3.337s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.338s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[3.338s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.338s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[3.339s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[3.339s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[3.340s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.340s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.340s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[3.340s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.341s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[3.341s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[3.341s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[3.342s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[3.342s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[3.342s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.342s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.342s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[3.343s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[3.343s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.343s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.343s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[3.343s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[3.343s] -- Up-to-date: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[3.347s] Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/base_interfaces_demo

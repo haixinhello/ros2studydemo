@@ -1,0 +1,21 @@
+[0.060s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.156s] [ 50%] Built target demo01_talker_str
+[0.165s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[3.382s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[3.382s]    15 |     [01;31m[K{[m[K
+[3.382s]       |     [01;31m[K^[m[K
+[3.395s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In constructor ‘[01m[KListener::[01;32m[KListener[m[K()[m[K’:
+[3.395s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[3.396s]    11 |         [01;31m[Ksubscription_[m[K=this->create_subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::do_cb,this,std::placeholder::_1));
+[3.396s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.396s]       |         [32m[Krmw_subscription_t[m[K
+[3.396s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_cb[m[K’ is not a member of ‘[01m[KListener[m[K’
+[3.396s]    11 |         subscription_=this->create_subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::[01;31m[Kdo_cb[m[K,this,std::placeholder::_1));
+[3.396s]       |                                                                                                          [01;31m[K^~~~~[m[K
+[3.396s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:122:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholder[m[K’ has not been declared
+[3.396s]    11 |         subscription_=this->create_subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::do_cb,this,std::[01;31m[Kplaceholder[m[K::_1));
+[3.396s]       |                                                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[4.300s] gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76: CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] Error 1
+[4.301s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_listener_str.dir/all] Error 2
+[4.301s] gmake: *** [Makefile:146: all] Error 2
+[4.304s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4

@@ -1,0 +1,12 @@
+{
+  "package_name": "base_interfaces_demo",
+  "output_dir": "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_generator_type_description/base_interfaces_demo",
+  "idl_tuples": [
+    "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:msg/Student.idl",
+    "/home/haixin/ws01_plumbing/build/base_interfaces_demo/rosidl_adapter/base_interfaces_demo:srv/AddInts.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

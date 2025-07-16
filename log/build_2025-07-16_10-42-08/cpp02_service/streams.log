@@ -1,0 +1,27 @@
+[0.020s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[0.119s] [ 50%] Built target demo01_server
+[0.129s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[5.640s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[5.930s] [100%] Built target demo02_client
+[5.951s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[5.969s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp02_service
+[5.983s] -- Install configuration: ""
+[5.983s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+[5.984s] -- Installing: /home/haixin/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+[5.986s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client" to ""
+[5.986s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[5.986s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[5.986s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[5.987s] -- Installing: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[5.987s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[5.988s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[5.988s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml
+[5.990s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp02_service

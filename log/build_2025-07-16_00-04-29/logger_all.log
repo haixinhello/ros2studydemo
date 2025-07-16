@@ -1,0 +1,293 @@
+[0.401s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']
+[0.401s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8c8ac440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ca50950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ca50950>>)
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.528s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/haixin/ws01_plumbing'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[0.595s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_service' with type 'ros.ament_cmake' and name 'cpp02_service'
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.646s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/haixin/ws01_plumbing/install
+[0.648s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 192 installed packages in /opt/ros/jazzy
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.694s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/haixin/ws01_plumbing/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/haixin/ws01_plumbing/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/haixin/ws01_plumbing/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.695s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/haixin/ws01_plumbing/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/haixin/ws01_plumbing/install/cpp01_topic', 'merge_install': False, 'path': '/home/haixin/ws01_plumbing/src/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target' from command line to 'None'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.695s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.696s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/haixin/ws01_plumbing/build/cpp02_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/haixin/ws01_plumbing/install/cpp02_service', 'merge_install': False, 'path': '/home/haixin/ws01_plumbing/src/cpp02_service', 'symlink_install': False, 'test_result_base': None}
+[0.696s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.697s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.697s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/haixin/ws01_plumbing/src/base_interfaces_demo' with build type 'ament_cmake'
+[0.698s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/haixin/ws01_plumbing/src/base_interfaces_demo'
+[0.707s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo
+[3.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo
+[3.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[3.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[3.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/base_interfaces_demo
+[4.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[4.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/base_interfaces_demo
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[4.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[4.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[4.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[4.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib'
+[4.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[4.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[4.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[4.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/bin'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages'
+[4.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[4.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[4.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[4.080s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/bin'
+[4.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[4.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[4.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[4.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[4.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[4.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[4.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[4.096s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[4.097s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[4.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[4.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[4.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[4.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[4.101s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib'
+[4.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[4.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[4.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[4.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[4.105s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/bin'
+[4.105s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[4.105s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages'
+[4.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[4.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[4.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[4.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/base_interfaces_demo/bin'
+[4.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[4.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[4.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[4.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[4.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[4.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[4.116s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/haixin/ws01_plumbing/src/cpp01_topic' with build type 'ament_cmake'
+[4.117s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/haixin/ws01_plumbing/src/cpp01_topic'
+[4.117s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.117s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.122s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/haixin/ws01_plumbing/src/cpp02_service' with build type 'ament_cmake'
+[4.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/haixin/ws01_plumbing/src/cpp02_service'
+[4.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp01_topic -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp01_topic
+[4.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp02_service -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp02_service
+[5.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp02_service -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp02_service
+[5.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[5.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp01_topic -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp01_topic
+[5.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[5.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp02_service -- -j4 -l4
+[5.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp02_service
+[5.585s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[5.586s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service' for CMake module files
+[5.586s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service' for CMake config files
+[5.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[5.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[5.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp02_service
+[5.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[5.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/lib'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/bin'
+[5.599s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[5.599s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/lib/python3.12/site-packages'
+[5.599s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/bin'
+[5.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.ps1'
+[5.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv'
+[5.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.sh'
+[5.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.bash'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.zsh'
+[5.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haixin/ws01_plumbing/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[5.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service' for CMake module files
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service' for CMake config files
+[5.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[5.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[5.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[5.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/lib'
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/bin'
+[5.631s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/lib/python3.12/site-packages'
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp02_service/bin'
+[5.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.ps1'
+[5.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv'
+[5.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.sh'
+[5.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.bash'
+[5.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.zsh'
+[5.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haixin/ws01_plumbing/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[21.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[21.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp01_topic
+[21.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[21.131s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic' for CMake module files
+[21.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp02_service:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp01_topic
+[21.132s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic' for CMake config files
+[21.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[21.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[21.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[21.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[21.134s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/lib'
+[21.135s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/bin'
+[21.135s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[21.135s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/lib/python3.12/site-packages'
+[21.135s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/bin'
+[21.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[21.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[21.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.sh'
+[21.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.bash'
+[21.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[21.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haixin/ws01_plumbing/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[21.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[21.140s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic' for CMake module files
+[21.141s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic' for CMake config files
+[21.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[21.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[21.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[21.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[21.144s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/lib'
+[21.144s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/bin'
+[21.145s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[21.145s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/lib/python3.12/site-packages'
+[21.145s] Level 1:colcon.colcon_core.environment:checking '/home/haixin/ws01_plumbing/install/cpp01_topic/bin'
+[21.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[21.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[21.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.sh'
+[21.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.bash'
+[21.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[21.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/haixin/ws01_plumbing/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[21.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.151s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.164s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.164s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.165s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[21.165s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haixin/ws01_plumbing/install/local_setup.ps1'
+[21.167s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/haixin/ws01_plumbing/install/_local_setup_util_ps1.py'
+[21.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haixin/ws01_plumbing/install/setup.ps1'
+[21.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haixin/ws01_plumbing/install/local_setup.sh'
+[21.175s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/haixin/ws01_plumbing/install/_local_setup_util_sh.py'
+[21.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haixin/ws01_plumbing/install/setup.sh'
+[21.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haixin/ws01_plumbing/install/local_setup.bash'
+[21.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haixin/ws01_plumbing/install/setup.bash'
+[21.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/haixin/ws01_plumbing/install/local_setup.zsh'
+[21.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/haixin/ws01_plumbing/install/setup.zsh'

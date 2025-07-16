@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[4.386s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[4.797s] [100%] Built target demo01_talker_str
+[4.818s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[4.820s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp01_topic
+[4.833s] -- Install configuration: ""
+[4.834s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[4.834s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[4.835s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[4.835s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[4.835s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[4.835s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[4.835s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[4.836s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[4.836s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[4.836s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[4.836s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[4.836s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[4.836s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[4.837s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[4.837s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[4.837s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[4.837s] -- Installing: /home/haixin/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[4.840s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp01_topic

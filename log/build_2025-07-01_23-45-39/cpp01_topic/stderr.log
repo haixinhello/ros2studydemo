@@ -1,0 +1,17 @@
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   15 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In constructor ‘[01m[KListener::[01;32m[KListener[m[K()[m[K’:
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   11 |         [01;31m[Ksubscription_[m[K=this->create_subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::do_cb,this,std::placeholder::_1));
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kdo_cb[m[K’ is not a member of ‘[01m[KListener[m[K’
+   11 |         subscription_=this->create_subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::[01;31m[Kdo_cb[m[K,this,std::placeholder::_1));
+      |                                                                                                          [01;31m[K^~~~~[m[K
+[01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:11:122:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::placeholder[m[K’ has not been declared
+   11 |         subscription_=this->create_subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::do_cb,this,std::[01;31m[Kplaceholder[m[K::_1));
+      |                                                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76: CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_listener_str.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

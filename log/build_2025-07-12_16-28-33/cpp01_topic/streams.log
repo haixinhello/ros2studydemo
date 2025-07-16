@@ -1,0 +1,42 @@
+[0.023s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4
+[0.093s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.472s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.534s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.554s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.752s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.876s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.000s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.028s] -- Found base_interfaces_demo: 0.0.0 (/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.057s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.231s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.231s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws01_plumbing/src/cpp01_topic/include>
+[1.231s] -- Configured cppcheck exclude dirs and/or files: 
+[1.233s] -- Added test 'lint_cmake' to check CMake code style
+[1.235s] -- Added test 'uncrustify' to check C / C++ code style
+[1.235s] -- Configured uncrustify additional arguments: 
+[1.236s] -- Added test 'xmllint' to check XML markup files
+[1.239s] -- Configuring done (1.2s)
+[1.314s] -- Generating done (0.1s)
+[1.335s] -- Build files have been written to: /home/haixin/ws01_plumbing/build/cpp01_topic
+[1.403s] [ 12%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[1.410s] [ 25%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[1.564s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[1.564s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[7.239s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:[m[K In constructor ‘[01m[KTalker::[01;32m[KTalker[m[K()[m[K’:
+[7.240s] [01m[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:9:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTalker[m[K’ does not have any field named ‘[01m[Kcount[m[K’
+[7.240s]     9 |   Talker():Node("talker_node_cpp"),[01;31m[Kcount[m[K(0)
+[7.240s]       |                                    [01;31m[K^~~~~[m[K
+[8.504s] gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+[8.504s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+[8.504s] gmake[1]: *** Waiting for unfinished jobs....
+[8.811s] [ 62%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[9.192s] [ 62%] Built target demo04_listener_stu
+[11.765s] [ 75%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[12.184s] [ 75%] Built target demo01_talker_str
+[16.509s] [ 87%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[17.188s] [ 87%] Built target demo02_listener_str
+[17.190s] gmake: *** [Makefile:146: all] Error 2
+[17.194s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp01_topic -- -j4 -l4

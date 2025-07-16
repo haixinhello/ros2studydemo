@@ -1,0 +1,36 @@
+[0.014s] Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo
+[0.127s] -- The CXX compiler identification is GNU 13.3.0
+[0.154s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.352s] -- Detecting CXX compile features - done
+[0.356s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.576s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.768s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.961s] -- Added test 'lint_cmake' to check CMake code style
+[0.963s] -- Added test 'xmllint' to check XML markup files
+[0.966s] -- Configuring done (0.9s)
+[0.972s] -- Generating done (0.0s)
+[0.975s] -- Build files have been written to: /home/haixin/ws01_plumbing/build/base_interfaces_demo
+[0.982s] Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/base_interfaces_demo
+[0.984s] Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[1.050s] Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/base_interfaces_demo -- -j4 -l4
+[1.068s] Invoking command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/base_interfaces_demo
+[1.081s] -- Install configuration: ""
+[1.081s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[1.082s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[1.082s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[1.082s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[1.082s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[1.082s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[1.082s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[1.083s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[1.083s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[1.083s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[1.083s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[1.083s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[1.084s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[1.084s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[1.084s] -- Installing: /home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[1.087s] Invoked command in '/home/haixin/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/base_interfaces_demo

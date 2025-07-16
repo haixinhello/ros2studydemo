@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.000302] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000522] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict({'base_interfaces_demo': '/home/haixin/ws01_plumbing/install/base_interfaces_demo'})}
+[0.000815] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.015745] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.018258] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.019129] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/haixin/ws01_plumbing/build/cpp01_topic', '--', '-j4', '-l4'], 'cwd': '/home/haixin/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'haixin', 'SSH_CLIENT': '192.168.100.101 50713 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'HOME': '/home/haixin', 'OLDPWD': '/home/haixin', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1f5d7850-a7be-4cd9-95be-03429059ba17.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/haixin/ws01_plumbing/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'haixin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/haixin/scripts:/home/haixin/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/opt/ros/jazzy/bin:/home/haixin/scripts:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f812374e18.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/haixin/ws01_plumbing/install/cpp01_topic:/home/haixin/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/haixin/ws01_plumbing/build/cpp01_topic', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.100.101 50713 192.168.100.102 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/haixin/ws01_plumbing/install/base_interfaces_demo:/home/haixin/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy'}), 'shell': False}
+[0.093263] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099673] (-) TimerEvent: {}
+[0.199969] (-) TimerEvent: {}
+[0.300431] (-) TimerEvent: {}
+[0.400805] (-) TimerEvent: {}
+[0.472511] (cpp01_topic) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500931] (-) TimerEvent: {}
+[0.534585] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.554814] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.583147] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601006] (-) TimerEvent: {}
+[0.619921] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701142] (-) TimerEvent: {}
+[0.752562] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.757433] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801252] (-) TimerEvent: {}
+[0.876867] (cpp01_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901345] (-) TimerEvent: {}
+[1.000414] (cpp01_topic) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.001417] (-) TimerEvent: {}
+[1.028738] (cpp01_topic) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/haixin/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[1.058279] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.101511] (-) TimerEvent: {}
+[1.201837] (-) TimerEvent: {}
+[1.231563] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.232022] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws01_plumbing/src/cpp01_topic/include>\n'}
+[1.232202] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.233700] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.235846] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.236096] (cpp01_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.236860] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.240283] (cpp01_topic) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.301973] (-) TimerEvent: {}
+[1.314429] (cpp01_topic) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.335969] (cpp01_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/haixin/ws01_plumbing/build/cpp01_topic\n'}
+[1.403579] (-) TimerEvent: {}
+[1.404223] (cpp01_topic) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o\x1b[0m\n'}
+[1.411268] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o\x1b[0m\n'}
+[1.503689] (-) TimerEvent: {}
+[1.564772] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o\x1b[0m\n'}
+[1.565125] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o\x1b[0m\n'}
+[1.603806] (-) TimerEvent: {}
+[1.705157] (-) TimerEvent: {}
+[1.805519] (-) TimerEvent: {}
+[1.905908] (-) TimerEvent: {}
+[2.006546] (-) TimerEvent: {}
+[2.108121] (-) TimerEvent: {}
+[2.208579] (-) TimerEvent: {}
+[2.309146] (-) TimerEvent: {}
+[2.409594] (-) TimerEvent: {}
+[2.509969] (-) TimerEvent: {}
+[2.612277] (-) TimerEvent: {}
+[2.715174] (-) TimerEvent: {}
+[2.815668] (-) TimerEvent: {}
+[2.916180] (-) TimerEvent: {}
+[3.019185] (-) TimerEvent: {}
+[3.124056] (-) TimerEvent: {}
+[3.224551] (-) TimerEvent: {}
+[3.325105] (-) TimerEvent: {}
+[3.428169] (-) TimerEvent: {}
+[3.528659] (-) TimerEvent: {}
+[3.629205] (-) TimerEvent: {}
+[3.730337] (-) TimerEvent: {}
+[3.833414] (-) TimerEvent: {}
+[3.934994] (-) TimerEvent: {}
+[4.039181] (-) TimerEvent: {}
+[4.139694] (-) TimerEvent: {}
+[4.240247] (-) TimerEvent: {}
+[4.340780] (-) TimerEvent: {}
+[4.441253] (-) TimerEvent: {}
+[4.541736] (-) TimerEvent: {}
+[4.642766] (-) TimerEvent: {}
+[4.744395] (-) TimerEvent: {}
+[4.846706] (-) TimerEvent: {}
+[4.947686] (-) TimerEvent: {}
+[5.049627] (-) TimerEvent: {}
+[5.151554] (-) TimerEvent: {}
+[5.251994] (-) TimerEvent: {}
+[5.355637] (-) TimerEvent: {}
+[5.456187] (-) TimerEvent: {}
+[5.556708] (-) TimerEvent: {}
+[5.657447] (-) TimerEvent: {}
+[5.758291] (-) TimerEvent: {}
+[5.860554] (-) TimerEvent: {}
+[5.964359] (-) TimerEvent: {}
+[6.064912] (-) TimerEvent: {}
+[6.165401] (-) TimerEvent: {}
+[6.265878] (-) TimerEvent: {}
+[6.366408] (-) TimerEvent: {}
+[6.468190] (-) TimerEvent: {}
+[6.568693] (-) TimerEvent: {}
+[6.671169] (-) TimerEvent: {}
+[6.771942] (-) TimerEvent: {}
+[6.872871] (-) TimerEvent: {}
+[6.975426] (-) TimerEvent: {}
+[7.076365] (-) TimerEvent: {}
+[7.178200] (-) TimerEvent: {}
+[7.239321] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTalker::\x1b[01;32m\x1b[KTalker\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.240662] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/haixin/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:9:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KTalker\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.240890] (cpp01_topic) StderrLine: {'line': b'    9 |   Talker():Node("talker_node_cpp"),\x1b[01;31m\x1b[Kcount\x1b[m\x1b[K(0)\n'}
+[7.241092] (cpp01_topic) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.281175] (-) TimerEvent: {}
+[7.381712] (-) TimerEvent: {}
+[7.482422] (-) TimerEvent: {}
+[7.585580] (-) TimerEvent: {}
+[7.686088] (-) TimerEvent: {}
+[7.786576] (-) TimerEvent: {}
+[7.887434] (-) TimerEvent: {}
+[7.989691] (-) TimerEvent: {}
+[8.090189] (-) TimerEvent: {}
+[8.190705] (-) TimerEvent: {}
+[8.291233] (-) TimerEvent: {}
+[8.391756] (-) TimerEvent: {}
+[8.492277] (-) TimerEvent: {}
+[8.503954] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1\n'}
+[8.504801] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2\n'}
+[8.505270] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[8.595195] (-) TimerEvent: {}
+[8.695673] (-) TimerEvent: {}
+[8.799272] (-) TimerEvent: {}
+[8.812001] (cpp01_topic) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable demo04_listener_stu\x1b[0m\n'}
+[8.899432] (-) TimerEvent: {}
+[9.000201] (-) TimerEvent: {}
+[9.101628] (-) TimerEvent: {}
+[9.193230] (cpp01_topic) StdoutLine: {'line': b'[ 62%] Built target demo04_listener_stu\n'}
+[9.201763] (-) TimerEvent: {}
+[9.302249] (-) TimerEvent: {}
+[9.402673] (-) TimerEvent: {}
+[9.503127] (-) TimerEvent: {}
+[9.603550] (-) TimerEvent: {}
+[9.703974] (-) TimerEvent: {}
+[9.804397] (-) TimerEvent: {}
+[9.904801] (-) TimerEvent: {}
+[10.005197] (-) TimerEvent: {}
+[10.105609] (-) TimerEvent: {}
+[10.206120] (-) TimerEvent: {}
+[10.306542] (-) TimerEvent: {}
+[10.406977] (-) TimerEvent: {}
+[10.507399] (-) TimerEvent: {}
+[10.607799] (-) TimerEvent: {}
+[10.708198] (-) TimerEvent: {}
+[10.808583] (-) TimerEvent: {}
+[10.908972] (-) TimerEvent: {}
+[11.009493] (-) TimerEvent: {}
+[11.110091] (-) TimerEvent: {}
+[11.210978] (-) TimerEvent: {}
+[11.311391] (-) TimerEvent: {}
+[11.411809] (-) TimerEvent: {}
+[11.512267] (-) TimerEvent: {}
+[11.612705] (-) TimerEvent: {}
+[11.713178] (-) TimerEvent: {}
+[11.765505] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo01_talker_str\x1b[0m\n'}
+[11.813387] (-) TimerEvent: {}
+[11.914105] (-) TimerEvent: {}
+[12.014654] (-) TimerEvent: {}
+[12.115504] (-) TimerEvent: {}
+[12.184866] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo01_talker_str\n'}
+[12.215619] (-) TimerEvent: {}
+[12.315989] (-) TimerEvent: {}
+[12.416352] (-) TimerEvent: {}
+[12.516709] (-) TimerEvent: {}
+[12.617082] (-) TimerEvent: {}
+[12.717473] (-) TimerEvent: {}
+[12.817834] (-) TimerEvent: {}
+[12.918218] (-) TimerEvent: {}
+[13.018609] (-) TimerEvent: {}
+[13.119612] (-) TimerEvent: {}
+[13.219968] (-) TimerEvent: {}
+[13.320332] (-) TimerEvent: {}
+[13.420705] (-) TimerEvent: {}
+[13.521079] (-) TimerEvent: {}
+[13.621446] (-) TimerEvent: {}
+[13.721821] (-) TimerEvent: {}
+[13.822172] (-) TimerEvent: {}
+[13.922547] (-) TimerEvent: {}
+[14.022903] (-) TimerEvent: {}
+[14.123268] (-) TimerEvent: {}
+[14.223630] (-) TimerEvent: {}
+[14.324014] (-) TimerEvent: {}
+[14.424402] (-) TimerEvent: {}
+[14.524778] (-) TimerEvent: {}
+[14.625135] (-) TimerEvent: {}
+[14.725490] (-) TimerEvent: {}
+[14.825847] (-) TimerEvent: {}
+[14.926221] (-) TimerEvent: {}
+[15.026586] (-) TimerEvent: {}
+[15.126968] (-) TimerEvent: {}
+[15.227369] (-) TimerEvent: {}
+[15.327765] (-) TimerEvent: {}
+[15.428162] (-) TimerEvent: {}
+[15.528565] (-) TimerEvent: {}
+[15.628978] (-) TimerEvent: {}
+[15.729449] (-) TimerEvent: {}
+[15.829863] (-) TimerEvent: {}
+[15.930340] (-) TimerEvent: {}
+[16.030774] (-) TimerEvent: {}
+[16.131188] (-) TimerEvent: {}
+[16.231582] (-) TimerEvent: {}
+[16.332098] (-) TimerEvent: {}
+[16.432688] (-) TimerEvent: {}
+[16.510387] (cpp01_topic) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable demo02_listener_str\x1b[0m\n'}
+[16.532797] (-) TimerEvent: {}
+[16.633191] (-) TimerEvent: {}
+[16.733893] (-) TimerEvent: {}
+[16.835717] (-) TimerEvent: {}
+[16.936596] (-) TimerEvent: {}
+[17.037131] (-) TimerEvent: {}
+[17.137491] (-) TimerEvent: {}
+[17.188813] (cpp01_topic) StdoutLine: {'line': b'[ 87%] Built target demo02_listener_str\n'}
+[17.191194] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.194972] (cpp01_topic) CommandEnded: {'returncode': 2}
+[17.212628] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[17.223387] (-) EventReactorShutdown: {}
