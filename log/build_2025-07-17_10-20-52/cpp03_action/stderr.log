@@ -1,0 +1,9 @@
+[01m[K/home/haixin/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::[01;32m[Khandle_cancel[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/haixin/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:41:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   41 | rclcpp_action::CancelResponse handle_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K)
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/haixin/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::[01;32m[Khandle_accepted[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[01m[K/home/haixin/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:47:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   47 |   void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K)
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
