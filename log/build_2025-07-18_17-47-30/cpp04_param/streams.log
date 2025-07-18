@@ -1,0 +1,29 @@
+[0.016s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[0.120s] [ 16%] [32mBuilding CXX object CMakeFiles/demo01_param_server.dir/src/demo01_param_server.cpp.o[0m
+[0.127s] [ 50%] Built target demo02_param_client
+[0.130s] [ 83%] Built target demo00_param
+[4.539s] [100%] [32m[1mLinking CXX executable demo01_param_server[0m
+[4.776s] [100%] Built target demo01_param_server
+[4.797s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[4.815s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp04_param
+[4.828s] -- Install configuration: ""
+[4.828s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[4.829s] -- Installing: /home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[4.830s] -- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server" to ""
+[4.830s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[4.830s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[4.830s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[4.830s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[4.831s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[4.831s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[4.831s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[4.831s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[4.831s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[4.832s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[4.832s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[4.832s] -- Installing: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[4.832s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[4.832s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[4.832s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[4.832s] -- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[4.835s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/haixin/ws01_plumbing/build/cpp04_param
