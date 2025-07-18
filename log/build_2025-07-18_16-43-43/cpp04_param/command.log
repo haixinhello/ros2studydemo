@@ -1,0 +1,2 @@
+Invoking command in '/home/haixin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp04_param -- -j4 -l4
+Invoked command in '/home/haixin/ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp04_param -- -j4 -l4

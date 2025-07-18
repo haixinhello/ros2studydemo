@@ -1,0 +1,11 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:1[m[K:
+[01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KMyParam::[01;32m[KMyParam[m[K()[m[K’:
+[01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Parameter[m[K’ has no member named ‘[01m[Ksa_string[m[K’; did you mean ‘[01m[Kas_string[m[K’?
+   15 |         RCLCPP_INFO(this->get_logger(),"car_name = %s",p1.[01;31m[Ksa_string[m[K().c_str());
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo00_param.dir/build.make:76: CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo00_param.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

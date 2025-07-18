@@ -1,0 +1,12 @@
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/uninstall.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/cpp04_param_uninstall.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/demo00_param.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/demo01_param_server.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/demo02_param_client.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/test.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/edit_cache.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/rebuild_cache.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/list_install_components.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/install.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/install/local.dir
+/home/haixin/ws01_plumbing/build/cpp04_param/CMakeFiles/install/strip.dir

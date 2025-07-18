@@ -1,0 +1,403 @@
+[0.030s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp04_param -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp04_param
+[0.530s] -- The C compiler identification is GNU 13.3.0
+[0.794s] -- The CXX compiler identification is GNU 13.3.0
+[0.841s] -- Detecting C compiler ABI info
+[1.035s] -- Detecting C compiler ABI info - done
+[1.050s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.051s] -- Detecting C compile features
+[1.053s] -- Detecting C compile features - done
+[1.072s] -- Detecting CXX compiler ABI info
+[1.248s] -- Detecting CXX compiler ABI info - done
+[1.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.266s] -- Detecting CXX compile features
+[1.267s] -- Detecting CXX compile features - done
+[1.273s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.510s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.747s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.850s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.884s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.982s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.172s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.182s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.362s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.389s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.600s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.799s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.799s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/haixin/ws01_plumbing/src/cpp04_param/include>
+[2.799s] -- Configured cppcheck exclude dirs and/or files: 
+[2.801s] -- Added test 'lint_cmake' to check CMake code style
+[2.804s] -- Added test 'uncrustify' to check C / C++ code style
+[2.804s] -- Configured uncrustify additional arguments: 
+[2.806s] -- Added test 'xmllint' to check XML markup files
+[2.810s] -- Configuring done (2.6s)
+[2.827s] -- Generating done (0.0s)
+[2.833s] -- Build files have been written to: /home/haixin/ws01_plumbing/build/cpp04_param
+[2.850s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/haixin/ws01_plumbing/src/cpp04_param -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/haixin/ws01_plumbing/install/cpp04_param
+[2.852s] Invoking command in '/home/haixin/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp04_param -- -j4 -l4
+[2.939s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[6.422s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[6.422s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[6.422s]                  from [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:1[m[K:
+[6.422s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KMyParam::[01;32m[KMyParam[m[K()[m[K’:
+[6.422s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.423s]     9 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"参数API使用");
+[6.423s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.423s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.423s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.424s] In file included from [01m[K/usr/include/c++/13/bits/stl_algobase.h:67[m[K,
+[6.424s]                  from [01m[K/usr/include/c++/13/bits/stl_uninitialized.h:63[m[K,
+[6.424s]                  from [01m[K/usr/include/c++/13/memory:69[m[K,
+[6.424s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K:
+[6.424s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.424s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.424s]       |     [01;36m[K^~~~~~~~[m[K
+[6.424s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.425s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.425s]     9 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"参数API使用");
+[6.425s]       |                                     [01;36m[K^[m[K
+[6.426s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.426s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.426s]       |     [01;36m[K^~~~~~~~[m[K
+[6.426s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.426s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.426s]     9 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"参数API使用");
+[6.427s]       |                                     [01;36m[K^[m[K
+[6.427s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:24[m[K,
+[6.427s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+[6.427s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:38[m[K,
+[6.427s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.427s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.428s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.428s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.428s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[6.428s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[6.428s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.428s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.428s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[6.428s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.429s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.429s]       | [01;36m[K^~~~~~~~[m[K
+[6.429s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.429s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.429s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.429s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.429s]     9 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"参数API使用");
+[6.429s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.429s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.429s]     9 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"参数API使用");
+[6.429s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.429s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.430s]     9 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"参数API使用");
+[6.430s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.430s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[6.430s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.430s]     9 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"参数API使用");
+[6.430s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.430s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.430s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.430s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.430s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.430s]       |     [01;36m[K^~~~~~~~[m[K
+[6.430s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.431s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.431s]     9 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"参数API使用");
+[6.431s]       |                                     [01;36m[K^[m[K
+[6.431s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.431s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.431s]       |     [01;36m[K^~~~~~~~[m[K
+[6.431s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.431s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.431s]     9 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"参数API使用");
+[6.431s]       |                                     [01;36m[K^[m[K
+[6.432s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.432s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.432s]       | [01;36m[K^~~~~~~~[m[K
+[6.432s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.432s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.432s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.432s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.432s]     9 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"参数API使用");
+[6.432s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.432s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.432s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.432s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.433s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.433s]       |     [01;36m[K^~~~~~~~[m[K
+[6.433s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.433s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.433s]     9 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"参数API使用");
+[6.433s]       |                                     [01;36m[K^[m[K
+[6.433s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.433s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.433s]       |     [01;36m[K^~~~~~~~[m[K
+[6.433s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.434s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:9:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.434s]     9 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"参数API使用");
+[6.434s]       |                                     [01;36m[K^[m[K
+[6.434s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.435s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.435s]       | [01;36m[K^~~~~~~~[m[K
+[6.435s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.435s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.435s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.435s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.435s]    15 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.435s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.435s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.435s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.436s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.436s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.436s]       |     [01;36m[K^~~~~~~~[m[K
+[6.436s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.436s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.436s]    15 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.436s]       |                                     [01;36m[K^[m[K
+[6.436s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.436s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.436s]       |     [01;36m[K^~~~~~~~[m[K
+[6.436s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.437s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.437s]    15 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.437s]       |                                     [01;36m[K^[m[K
+[6.437s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.437s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.437s]       | [01;36m[K^~~~~~~~[m[K
+[6.437s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.437s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.437s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.437s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.437s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %s",p1.sa_string().c_str());
+[6.438s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.438s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.438s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %s",p1.sa_string().c_str());
+[6.438s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.438s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.438s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %s",p1.sa_string().c_str());
+[6.438s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.438s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.438s]    15 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.438s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.438s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.438s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.439s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.439s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.439s]       |     [01;36m[K^~~~~~~~[m[K
+[6.439s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.439s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.439s]    15 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.439s]       |                                     [01;36m[K^[m[K
+[6.439s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.439s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.439s]       |     [01;36m[K^~~~~~~~[m[K
+[6.440s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.440s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.440s]    15 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.440s]       |                                     [01;36m[K^[m[K
+[6.440s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.440s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.440s]       | [01;36m[K^~~~~~~~[m[K
+[6.440s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.440s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.440s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.440s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.441s]    15 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.441s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.441s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.441s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.441s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.441s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.441s]       |     [01;36m[K^~~~~~~~[m[K
+[6.441s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.441s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.441s]    15 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.441s]       |                                     [01;36m[K^[m[K
+[6.442s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.442s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.442s]       |     [01;36m[K^~~~~~~~[m[K
+[6.442s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.442s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.442s]    15 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %s",p1.sa_string().c_str());
+[6.442s]       |                                     [01;36m[K^[m[K
+[6.442s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.442s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.442s]       | [01;36m[K^~~~~~~~[m[K
+[6.442s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.442s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.443s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.443s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:15:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Parameter[m[K’ has no member named ‘[01m[Ksa_string[m[K’; did you mean ‘[01m[Kas_string[m[K’?
+[6.443s]    15 |         RCLCPP_INFO(this-get_logger(),"car_name = %s",p1.[01;31m[Ksa_string[m[K().c_str());
+[6.443s]       |                                                          [01;31m[K^~~~~~~~~[m[K
+[6.443s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.443s]    16 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %.2f",p2.as_double());
+[6.443s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.443s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.443s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.443s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.443s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.444s]       |     [01;36m[K^~~~~~~~[m[K
+[6.444s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.444s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.444s]    16 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %.2f",p2.as_double());
+[6.444s]       |                                     [01;36m[K^[m[K
+[6.444s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.444s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.444s]       |     [01;36m[K^~~~~~~~[m[K
+[6.444s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.444s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.444s]    16 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %.2f",p2.as_double());
+[6.445s]       |                                     [01;36m[K^[m[K
+[6.445s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.445s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.445s]       | [01;36m[K^~~~~~~~[m[K
+[6.445s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.445s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.445s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.445s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.445s]    16 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %.2f",p2.as_double());
+[6.445s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.446s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.446s]    16 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %.2f",p2.as_double());
+[6.446s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.446s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.446s]    16 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %.2f",p2.as_double());
+[6.446s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.446s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.446s]    16 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %.2f",p2.as_double());
+[6.446s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.446s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.447s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.447s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.447s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.447s]       |     [01;36m[K^~~~~~~~[m[K
+[6.447s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.447s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.447s]    16 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %.2f",p2.as_double());
+[6.447s]       |                                     [01;36m[K^[m[K
+[6.447s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.447s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.447s]       |     [01;36m[K^~~~~~~~[m[K
+[6.447s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.448s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.448s]    16 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %.2f",p2.as_double());
+[6.448s]       |                                     [01;36m[K^[m[K
+[6.448s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.448s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.448s]       | [01;36m[K^~~~~~~~[m[K
+[6.448s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.448s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.448s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.448s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.448s]    16 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %.2f",p2.as_double());
+[6.449s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.449s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.449s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.449s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.449s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.449s]       |     [01;36m[K^~~~~~~~[m[K
+[6.449s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.449s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.449s]    16 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %.2f",p2.as_double());
+[6.449s]       |                                     [01;36m[K^[m[K
+[6.449s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.449s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.450s]       |     [01;36m[K^~~~~~~~[m[K
+[6.450s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.450s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:16:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.450s]    16 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %.2f",p2.as_double());
+[6.450s]       |                                     [01;36m[K^[m[K
+[6.450s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.450s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.450s]       | [01;36m[K^~~~~~~~[m[K
+[6.450s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.450s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.450s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.451s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.451s]    17 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %ld",p3.as_int());
+[6.451s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.451s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.451s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.451s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.451s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.451s]       |     [01;36m[K^~~~~~~~[m[K
+[6.451s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.451s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.451s]    17 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %ld",p3.as_int());
+[6.451s]       |                                     [01;36m[K^[m[K
+[6.452s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.452s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.452s]       |     [01;36m[K^~~~~~~~[m[K
+[6.452s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.452s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.452s]    17 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %ld",p3.as_int());
+[6.452s]       |                                     [01;36m[K^[m[K
+[6.452s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.452s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.452s]       | [01;36m[K^~~~~~~~[m[K
+[6.452s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.452s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.453s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.453s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.453s]    17 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %ld",p3.as_int());
+[6.453s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.453s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.453s]    17 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %ld",p3.as_int());
+[6.453s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.453s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.453s]    17 |         [01;31m[KRCLCPP_INFO[m[K(this-get_logger(),"car_name = %ld",p3.as_int());
+[6.453s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.453s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.453s]    17 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %ld",p3.as_int());
+[6.454s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.454s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.454s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.454s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.454s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.454s]       |     [01;36m[K^~~~~~~~[m[K
+[6.454s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.454s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.454s]    17 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %ld",p3.as_int());
+[6.454s]       |                                     [01;36m[K^[m[K
+[6.454s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.454s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.455s]       |     [01;36m[K^~~~~~~~[m[K
+[6.455s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.455s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.455s]    17 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %ld",p3.as_int());
+[6.455s]       |                                     [01;36m[K^[m[K
+[6.455s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.455s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.455s]       | [01;36m[K^~~~~~~~[m[K
+[6.455s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.455s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.455s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.455s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[KMyParam*[m[K’ and ‘[01m[Krclcpp::Logger[m[K’)
+[6.455s]    17 |         RCLCPP_INFO([32m[Kthis[m[K[01;31m[K-[m[K[34m[Kget_logger()[m[K,"car_name = %ld",p3.as_int());
+[6.456s]       |                     [32m[K~~~~[m[K[01;31m[K^[m[K[34m[K~~~~~~~~~~~~[m[K
+[6.456s]       |                     [32m[K|[m[K              [34m[K|[m[K
+[6.456s]       |                     [32m[KMyParam*[m[K       [34m[Krclcpp::Logger[m[K
+[6.456s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::[01;32m[Koperator-[m[K(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)[m[K’
+[6.456s]   625 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+[6.456s]       |     [01;36m[K^~~~~~~~[m[K
+[6.456s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:625:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.456s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.456s]    17 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %ld",p3.as_int());
+[6.456s]       |                                     [01;36m[K^[m[K
+[6.456s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::[01;32m[Koperator-[m[K(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)[m[K’
+[6.456s]  1800 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+[6.457s]       |     [01;36m[K^~~~~~~~[m[K
+[6.457s] [01m[K/usr/include/c++/13/bits/stl_iterator.h:1800:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.457s] [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo00_param.cpp:17:37:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[KMyParam*[m[K’
+[6.457s]    17 |         RCLCPP_INFO(this-get_logger([01;36m[K)[m[K,"car_name = %ld",p3.as_int());
+[6.457s]       |                                     [01;36m[K^[m[K
+[6.457s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbuiltin_interfaces::msg::Time rclcpp::[01;32m[Koperator-[m[K(const builtin_interfaces::msg::Time&, const Duration&)[m[K’
+[6.457s]   168 | [01;36m[Koperator[m[K-(const builtin_interfaces::msg::Time & lhs, const rclcpp::Duration & rhs);
+[6.457s]       | [01;36m[K^~~~~~~~[m[K
+[6.457s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:168:49:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMyParam*[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+[6.457s]   168 | operator-([01;36m[Kconst builtin_interfaces::msg::Time & lhs[m[K, const rclcpp::Duration & rhs);
+[6.457s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.352s] gmake[2]: *** [CMakeFiles/demo00_param.dir/build.make:76: CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o] Error 1
+[7.352s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo00_param.dir/all] Error 2
+[7.352s] gmake: *** [Makefile:146: all] Error 2
+[7.356s] Invoked command in '/home/haixin/ws01_plumbing/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/haixin/ws01_plumbing/build/cpp04_param -- -j4 -l4
