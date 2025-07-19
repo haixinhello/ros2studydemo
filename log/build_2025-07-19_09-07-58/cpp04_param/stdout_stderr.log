@@ -1,0 +1,46 @@
+[ 50%] Built target demo00_param
+[ 50%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[ 83%] Built target demo01_param_server
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:1[m[K:
+[01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:[m[K In member function ‘[01m[Kvoid ParamClient::[01;32m[Kget_param[m[K()[m[K’:
+[01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:38:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   38 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"%s=%s"[m[K,param.get_name().c_str(),[32m[Kparam.value_to_string()[m[K);
+      |                                            [01;35m[K^~~~~~~[m[K                          [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                  [32m[K|[m[K
+      |                                                                                                  [32m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:38:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   38 |             RCLCPP_INFO(this->get_logger(),"%s=[01;36m[K%s[m[K",param.get_name().c_str(),param.value_to_string());
+      |                                                [01;36m[K~^[m[K
+      |                                                 [01;36m[K|[m[K
+      |                                                 [01;36m[Kchar*[m[K
+[01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:41:40:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   41 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"包含car_name吗？"[m[K,param_client_->has_parameter("car_name"));
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/haixin/ws01_plumbing/src/cpp04_param/src/demo02_param_client.cpp:42:40:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+   42 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"包含height吗？"[m[K,param_client_->has_parameter("height"));
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable demo02_param_client[0m
+[100%] Built target demo02_param_client
+-- Install configuration: ""
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+-- Installing: /home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+-- Set non-toolchain portion of runtime path of "/home/haixin/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+-- Installing: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+-- Up-to-date: /home/haixin/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
